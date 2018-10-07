@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/old_back3"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shree_ganesh"
+        android:layout_height="40dp" />
+    <ImageView
+        android:id="@+id/shet"
+        android:layout_below="@id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/dagdushet"
+        />
+    <ScrollView
+        android:layout_below="@id/shet"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_below="@id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lv1"
+            android:layout_width="180dp"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/sahitya"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/pooja_sahitya2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pooja Sahitya"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#9fffffff"/>
+            <ImageButton
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/pooja_vidhi"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pooja_vidhi"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pooja Vidhi"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#9fffffff"/>
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/aarti_button"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="80dp"
+                android:background="@drawable/aarti3"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aarti Sangrah"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#9fffffff"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lv2"
+            android:layout_width="180dp"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/daily_pooja"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/daily_pooja"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pratidin Pooja"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#9fffffff"/>
+            <ImageButton
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/food"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/prasad"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prasad Recipe"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#9fffffff"/>
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/visrjan"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="80dp"
+                android:background="@drawable/visarjan"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visarjan"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#9fffffff"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
